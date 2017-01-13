@@ -3,11 +3,10 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>com.zcbspay.platform.payment</groupId>
+    <groupId>com.zcbspay.platform</groupId>
     <artifactId>payment</artifactId>
     <version>1.0.0-SNAPSHOT</version>
   </parent>
-  <groupId>com.zcbspay.platform.payment</groupId>
   <artifactId>payment-order-api</artifactId>
   <name>payment-order-api</name>
   <url>http://maven.apache.org</url>

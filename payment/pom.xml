@@ -269,5 +269,7 @@
     <module>payment-order-simple</module>
     <module>payment-trade-simple</module>
     <module>payment-common</module>
+    <module>payment-order-test</module>
+    <module>payment-trade-test</module>
   </modules>
 </project>

@@ -43,8 +43,6 @@ public class SimpleOrderBean implements Serializable{
     private String reserved="";
     private String orderDesc="";
     private String memberId="";
-    private String productcode;
-    private String groupCode;
     private String frontUrl="";
     private String backUrl="";
 	/**
@@ -299,31 +297,4 @@ public class SimpleOrderBean implements Serializable{
 	public void setMemberId(String memberId) {
 		this.memberId = memberId;
 	}
-	/**
-	 * @return the productcode
-	 */
-	public String getProductcode() {
-		return productcode;
-	}
-	/**
-	 * @param productcode the productcode to set
-	 */
-	public void setProductcode(String productcode) {
-		this.productcode = productcode;
-	}
-	/**
-	 * @return the groupCode
-	 */
-	public String getGroupCode() {
-		return groupCode;
-	}
-	/**
-	 * @param groupCode the groupCode to set
-	 */
-	public void setGroupCode(String groupCode) {
-		this.groupCode = groupCode;
-	}
-    
-    
-    
 }
